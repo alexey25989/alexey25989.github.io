@@ -1,0 +1,85 @@
+.sidebar
+	position: fixed
+	width: 16%
+	text-align: center
+
+	@media only screen and (min-width: 1280px)
+		position: absolute
+		width: 100%
+
+	@media only screen and (max-width: 768px)
+		display: block
+		position: fixed
+		z-index: 3
+		width: 200px
+		height: 100%
+		top: 42px
+		left: -100%
+		margin: 0
+		box-sizing: border-box
+		border-radius: 10px
+		list-style: none
+		background: #fff
+		transition: left .5s 
+		transition: .5s
+
+	&__logo
+		img
+			max-width: 100%
+			height: auto
+
+	&__social
+		margin-top: 190px
+		text-align: center
+		
+		a
+			color: $main-color
+
+		.fa
+			padding: 7px
+			
+			&:hover
+				opacity: 0.7
+
+		@media only screen and (max-width : 992px)
+			.social-icons
+				.fa
+					padding: 5px
+			.fa-2x
+				font-size: 1.4em
+
+	&__text
+		text-align: center
+		font-size: 13px
+		
+.button-bar
+	display: none
+
+#sidebar-toggler
+	display: none
+
+@media only screen and (max-width : 768px)
+
+	.button-bar
+		display: block
+		position: absolute
+		z-index: 4
+		padding: 7px
+		color: #fff
+
+		&:hover
+			cursor: pointer
+
+	#sidebar-toggler:checked ~ .sidebar
+		left: 0
+		transition: .5s
+
+
+
+
+
+		
+
+	
+
+

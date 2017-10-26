@@ -1,0 +1,48 @@
+.footer
+	padding: 10px 27px 50px
+	background: #EEEEEE
+	
+	@media only screen and (max-width : 480px)
+		padding: 35px 12px 50px
+
+	.content__title
+		text-align: left
+		font-size: 25px
+
+		@media only screen and (max-width : 480px)
+			font-size: 20px
+
+	&__input
+		width: 65%
+		padding: 7px
+		border: none
+
+		&:focus
+			outline: none
+
+		@media only screen and (max-width : 768px)
+			width: 76%
+
+		@media only screen and (max-width : 480px)
+			width: 69%
+			padding: 2px
+			
+	&__form
+		margin-top: 40px
+
+	&__button
+		margin-left: -4px
+		padding: 7px 12px
+		border: none
+		background: $secondary-color
+
+		&:focus
+			outline: none
+			
+		&:hover
+			outline: 2px solid $main-color
+			background: transparent
+			color: $main-color
+
+		@media only screen and (max-width : 480px)
+			padding: 2px 5px
