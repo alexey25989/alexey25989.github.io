@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Pacific</title>
+
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrapper__content">
+			<header class="header">
+				<div class="header__logo">
+					<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+				</div>
+				<nav class="header__menu menu">
+					<button class="menu__button "><i class="fa fa-bars fa-3x"></i></button>
+					<ul class="menu__list">
+						<li class="menu__item menu__item__1">
+							<a href="">
+								<div class="icon-square"></div>
+								<p class="menu__item__text">Таможенное<br>оформление</p>
+							</a>
+						</li>
+						<li class="menu__item menu__item__2">
+							<a href="transportation.html">
+								<div class="icon-circle"></div>
+								<p class="menu__item__text">Перевозка<br>грузов</p>
+							</a>
+							<ul class="menu__list-second">
+								<li>По направлениям:</li>
+								<li><a href="china.html">-Из Европы - в Европу</a></li>
+								<li><a href="china.html">-Доставка из Азии</a></li>
+								<li><a href="china.html">-Доставка из США и Канады</a></li>
+								<li><a href="china.html">-Из РФ и Европы в СНГ</a></li>
+								<li><br></li>							
+								<li>По типам:</li>
+								<li><a href="china.html">-Автоперевозки</a></li>
+								<li><a href="china.html">-Авиаперевозки</a></li>
+								<li><a href="china.html">-Железнодорожные</a></li>
+								<li><a href="china.html">-Морские перевозки</a></li>
+								<li><a href="china.html">-Мультимодальные</a></li>
+								<li><a href="china.html">-Перевозки сборных грузов</a></li>
+							</ul>
+						</li>
+						<li class="menu__item menu__item__3">
+							<a href="#">
+								<div class="icon-eye"></div>
+								<p class="menu__item__text">Внешнеторговый<br>агент</p>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__item-list">
+					<ul>
+						<li><a href="#">КЛИЕНТАМ</a></li>
+						<li><a href="#">О НАС</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="header__item-request">
+					<a href="request.html">
+						<i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
+						<p class="menu__item__text">ЗАПРОС НА<br>ДОСТАВКУ</p>
+					</a>
+				</div>
+				<div class="header__lang">
+					<a href="#">EN</a>
+				</div>
+			</header>
+
+			<main class="main request">
+				<h1 class="main__title">Запрос на доставку грузов</h1>
+
+				<form action="#" class="form">
+					<label for="input-name">
+						<span class="form__text">Контактное лицо<span class="color">*</span>:</span>
+						<input type="text" name="username" id="input-name" class="form__input">
+					</label>
+					<label for="input-number">
+						<span class="form__text">Телефон<span class="color">*</span>:</span>
+						<input type="text" name="number" id="input-number" class="form__input" 
+						value="+7">
+					</label>
+					<label for="input-email">
+						<span class="form__text">E-mail<span class="color">*</span>:</span>
+						<input type="email" name="email" id="input-email" class="form__input">
+					</label>
+					<label for="input-send">
+						<span class="form__text">Адрес отправки<span class="color">*</span>:</span>
+						<input type="text" name="addres-send" id="input-send" class="form__input" 
+							placeholder="Москва, Домодедово">
+					</label>
+					<label for="input-ship">
+						<span class="form__text">Адрес доставки<span class="color">*</span>:</span>
+						<input type="text" name="addres-ship" id="input-ship" class="form__input"
+							placeholder="Пекин, ул.Строителей, д.7 кв.12">
+					</label>
+
+				
+					<label for="input-trans">
+						<span class="form__text">Способ перевозки<span class="color">*</span>:</span>
+						
+					</label>
+
+					<div class="form__select">
+						<select name="trans" id="input-trans">
+							<option value="Любой">Любой</option>
+							<option value="Морской">Морской</option>
+							<option value="Железнодорожный">Железнодорожный</option>
+							<option value="Автомобильный">Автомобильный</option>
+						</select>
+					</div>
+
+					
+					<div class="form__checkbox">
+						<input type="checkbox" id="input-check" name="custom">						
+						<label for="input-check">Таможенное оформление</label>
+					
+						<input type="checkbox" id="input-check2" name="insurance">						
+						<label for="input-check2">Страхование</label>
+					</div>
+
+																						
+					<label for="input-charact">
+						<span class="form__text">Характер груза<span class="color">*</span>:</span>
+						<input type="text" name="charact-cargo" id="input-charact" class="form__input"
+							placeholder="Одежда, обувь">
+					</label>
+
+					<div class="label__pick">
+						<label for="input-code">
+							<span class="form__text">Код ТН ВЭД<span class="color">*</span>:</span>
+							<input type="text" name="code" id="input-code" class="form__input">
+							<a href="#" class="form__pick">Подобрать</a>
+						</label>		
+					</div>
+
+					<label for="input-weight">
+						<span class="form__text">Вес (кг)<span class="color">*</span>:</span>
+						<input type="text" name="weight" id="input-weight" class="form__input"
+							placeholder="100">
+					</label>
+					<label for="input-volume">
+						<span class="form__text">Обьем груза или габариты<span class="color">*</span>:</span>
+						<input type="text" name="volume" id="input-volume" class="form__input"
+							placeholder="3*3*3 метра">
+					</label>
+
+					<label for="input-comment">
+						<span class="form__text">Комментарий к грузу<span class="color">*</span>:</span>
+						<textarea name="comment" id="input-comment" class="form__input"></textarea>
+					</label>
+
+					<button class="form__button">Отправить</button>
+
+				</form>
+
+
+				<div class="request__text">
+					<h2>Бланки запросов для скачивания</h2>
+					<p>Уважаемые клиенты! Вы можете скачать бланк запроса в формате xlx на <a href="#">авиаперевозку</a> или на <a href="#">остальные виды перевозок</a>, заполнить его в удобное для Вас время и отправить нам по адресу <a href="#">ptg@patixgroup.ru</a></p>
+				</div>
+																									
+			</main>
+			
+			<aside class="sidebar">
+				<input type="checkbox" id="sidebar-toggler" class="fix" />
+				<label for="sidebar-toggler" class="button-bar">
+					<i class="fa fa-arrow-circle-o-left fa-4x" aria-hidden="true"></i>
+				</label>
+
+				<div class="sidebar__content" id="sidebar">
+					<div class="banner__info-phone">
+						<div class="banner__phone-1">
+							<div class="banner__phone-text weight">
+								<p>Телефон в Москве:</p>								
+							</div>
+							<div class="banner__number">
+								<p><span class="color">+7 495</span> 663-94-12</p>					
+							</div>
+						</div>
+						<div class="banner__phone-2">
+							<div class="banner__phone-text weight">
+								<p>в Санкт_Петербурге:</p>								
+							</div>
+							<div class="banner__number">
+								<p><span class="color">+7 812</span> 309-57-71</p>					
+							</div>
+						</div>
+					</div>
+
+					<div class="banner__feedback">
+						<div class="banner__letter">
+							<a href="#"><div class="icon-letter"></div>info@patixgroup.ru</a>
+						</div>
+						<div class="banner__callback">
+							<a href="#callback" class="button button-small popup-with-move-anim" data-form="Нижняя форма">
+							<div class="icon-phone"></div>Перезвонить мне</a>
+						</div>
+					</div>
+
+					<div class="banner__price">
+						<a href="#application" class="button button-small color popup-with-move-anim"
+							data-form="Нижняя форма">ЗАЯВКА НА ПРОСЧЕТ СТОИМОСТИ</a>
+					</div>
+
+					<div class="sidebar__other-methods">
+						<h3>Другие способы доставки:</h3>
+						<img src="img/line.png" alt="">
+						<ul>
+							<li><a href="#">Автодоставка грузов из Китая</a></li>
+							<li><a href="#">Ж/Д перевозки из Китая</a></li>
+							<li><a href="#">Контейнерные морские перевозки</a></li>
+							<li><a href="#">Мультимодальные схемы перевозки</a></li>
+						</ul>
+						<img src="img/line.png" alt="">
+					</div>
+
+					<div class="sidebar__reviews">
+						<img src="img/icon-clients.png" alt="">
+						<a href="#">Отзывы клиентов об этом направлении</a>
+					</div>
+
+					<div class="sidebar__see-also">
+						<h3>Смотрите также:</h3>
+						<ul>
+							<li><a href="#">Помощь в таможенном оформлении</a></li>
+							<li><a href="#">Страхование и хранение груза</a></li>
+							<li><a href="#">Оформление документации на груз</a></li>
+							<li><a href="#">Сертифицирование грузов</a></li>
+							<li><a href="#">Услуги внешнеторгового агента</a></li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+
+		</div>
+									
+		<footer class="footer">
+			<div class="footer__content clearfix">
+				<div class="wrapper__content clearfix">
+					<div class="footer__item">
+						<h4 class="weight">Таможенное оформление</h4>
+						<ul>
+							<li><a href="#">- Таможенные посты</a></li>
+							<li><a href="#">- Стоимость растаможки</a></li>
+							<li><a href="#">- Порядок оказания услуг</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h4 class="weight">Перевозка грузов</h4>
+						<p>По направлениям:</p>
+						<ul>
+							<li><a href="#">- Из Европы - в Европу</a></li>
+							<li><a href="#">- Доставка из Азии</a></li>
+							<li><a href="#">- Доставка из США и Канады</a></li>
+							<li><a href="#">- Из РФ и Европы в СНГ</a></li>
+						</ul>
+						<p>По типам:</p>
+						<ul>
+							<li><a href="#">- Автоперевозки</a></li>
+							<li><a href="#">- Авиаперевозки</a></li>
+							<li><a href="#">- Железнодороюные</a></li>
+							<li><a href="#">- Морские перевозки</a></li>
+							<li><a href="#">- Мультимодальные</a></li>
+							<li><a href="#">- Перевозки сборных грузов</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h4 class="weight">Внешнеторговый агент</h4>
+						<ul>
+							<li><a href="#">- Экспорт из России</a></li>
+							<li><a href="#">- Импорт в Россию</a></li>
+							<li><a href="#">- Ауторсинг ВЭД</a></li>
+							<li><a href="#">- Идеи для вашего бизнеса</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div>
+							<h4 class="weight">Клиентам</h4>
+							<ul>
+								<li><a href="#">- Дополнительные услуги</a></li>
+								<li><a href="#">- Полезная информация</a></li>
+								<li><a href="#">- Документы</a></li>
+							</ul>
+						</div>
+						<div>
+							<h4 class="weight">О нас</h4>
+							<ul>
+								<li><a href="#">- О компании</a></li>
+								<li><a href="#">- Клиенты и отзывы</a></li>
+								<li><a href="#">- Вакансии</a></li>
+							</ul>
+						</div>
+						<div>
+							<h4 class="weight">Контакты</h4>
+							<ul>
+								<li><a href="#">- Электронная почта отделов</a></li>
+								<li><a href="#">- Адреса офиса и складов</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__item">
+						<h4 class="weight">Запрос на доставку</h4>
+						<ul>
+							<li><a href="#">- Заявка на просчет стоимости</a></li>
+						</ul>
+					</div>
+					<div class="footer__item footer__item-6">
+						<span>Москва:</span><br>
+						<span>+7 (495) 663-94-12</span><br>
+						<span>Санкт-Петербург:</span><br>
+						<span>+7 (812) 309-57-71</span><br>
+						<a href="#" class="footer__mail">info@patixgroup.ru</a>
+					</div>
+
+					<div class="footer__social">
+						<a href="https://www.facebook.com/"><div class="icon-facebook"></div></a>
+						<a href="https://www.google.com"><div class="icon-google"></div></a>
+						<a href="https://www.twitter.com"><div class="icon-twitter"></div></a>
+						<a href="https://www.vkontakte.com"><div class="icon-vkontakte"></div></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__line">
+				<div class="wrapper__content">
+					<div class="footer__logo">
+						<a href="#"><img src="img/logo-footer.png" alt="img"></a>
+					</div>
+					<div class="footer__text">
+						<p>Patix Trans Group,2000-2014</p>
+						<p>Представленная на сайте www.patixgroup.ru информация не является договором публичной оферты и носит исключительно информационный характер.</p>
+					</div>
+					<div class="footer__icon">
+						<div class="icon-icon_web "></div>
+						<p>Разработка сайта - <br>Asadchy</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+		
+	<div class="hidden">
+		<form id="callback" class="popup-form callback zoom-anim-dialog">
+
+			<input type="hidden" name="project_name" value="Юрдис">
+			<input type="hidden" name="admin_email" value="al-kono14@mail.ru">
+			<input type="hidden" name="form_subject" value="Новая заявка с сайта Юрдис">
+
+			<h3>Заказать звонок</h3>
+				<label>
+					<span>Ваше имя:</span>
+					<input type="text" name="Имя" placeholder="Введите ваше имя...">
+				</label>
+				<label>
+					<span>Ваш телефон:</span>
+					<input type="text" name="Телефон" placeholder="Введите ваше телефон..." required>
+				</label>
+				<div class="text-center">
+					<button class="button">Отправить</button>
+				</div>
+				<input class="formname" type="hidden" name="Форма">
+				<button title="Закрыть" type="button" class="mfp-close">×</button>
+		</form>
+
+		<form id="application" class="popup-form callback zoom-anim-dialog application-form">
+
+			<input type="hidden" name="project_name" value="Юрдис">
+			<input type="hidden" name="admin_email" value="al-kono14@mail.ru">
+			<input type="hidden" name="form_subject" value="Новая заявка с сайта Юрдис">
+
+			<h3 class="color">Заявка на просчет стоимости</h3>
+				<label>
+					<span>Контактное лицо</span><span class="color">*</span>:
+					<input type="text" name="Имя" required>
+				</label>
+				<label>
+					<span>Телефон</span><span class="color">*</span>:
+					<input type="text" name="Телефон" required>
+				</label>
+				<label>
+					<span>E-mail:</span>
+					<input type="text" name="E-mail">
+				</label>
+				<label>
+					<span>Заявка</span><span class="color">*</span>:
+					<textarea name="Заявка" placeholder="Москва - Лондон, 1200 кг, картины Пикассо, 1 200 000 рублей, от двери до двери"></textarea>
+				</label>
+				<div class="text-center">
+					<button class="button">Отправить</button>
+				</div>
+				<input class="formname" type="hidden" name="Форма">
+				<button title="Закрыть" type="button" class="mfp-close">×</button>
+		</form>
+
+	</div>
+
+		
+	<script src="js/libs.js"></script>
+	<script src="js/common.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,97 @@
+.header
+	position: relative
+	z-index: 7
+	margin-bottom: 60px
+
+	@media only screen and (max-width : 1200px)
+		padding: 0 45px
+
+	&__logo
+		display: inline-block
+
+	&__menu
+		display: inline-block
+
+	&__item-list
+		display: inline-block
+		position: relative
+		width: 170px
+		box-sizing: border-box
+		padding: 6px 15px
+		color: #090909
+				
+		ul
+			position: absolute
+			top: -30px
+			line-height: 2
+			list-style-image: url(../img/item-list.png)
+
+		a
+			color: inherit
+			text-decoration: none
+			transition: color 0.3s
+
+		a:hover
+			text-decoration: underline
+			color: $main-color
+			transition: color 0.3s 
+
+		@media only screen and (max-width : 768px)
+			display: none
+
+	&__item-request
+		display: inline-block
+
+		.menu__item__text
+			margin-left: 12px
+			font-size: 12px
+		
+
+		@media only screen and (max-width : 768px)
+			display: none
+				
+		a
+			display: block
+			text-decoration: none
+			color: #fff
+			box-sizing: border-box
+			width: 165px
+			padding: 10px 15px
+			background: url(../img/zapros.png) no-repeat
+			background-size: cover
+			transition: opacity 1s
+			border: 2px solid transparent
+			transition: .3s
+
+		i
+			vertical-align: middle
+
+		.fa-2x
+			font-size: 1.7em
+			
+		a:hover
+			background: #fff
+			color: #3B3B33 
+			border: 2px solid #3B3B33 
+			transition: .3s
+						
+	&__lang
+		display: inline-block
+		
+		a
+			display: block
+			padding: 7px 8px 6px 6px
+			color: #333
+			text-decoration: none
+			border: 1px solid #333
+			margin-left: 15px
+			border-radius: 50%
+			border-bottom-left-radius: 0
+			font-size: 11px
+
+		a:hover
+			color: $main-color
+			border: 1px solid $main-color
+
+
+
