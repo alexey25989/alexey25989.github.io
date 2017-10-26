@@ -1,0 +1,233 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-america {
+  background-image: url(../img/sprite2.png);
+  background-position: -66px -44px;
+  width: 16px;
+  height: 11px;
+}
+.icon-aravia {
+  background-image: url(../img/sprite2.png);
+  background-position: -50px -34px;
+  width: 16px;
+  height: 11px;
+}
+.icon-australia {
+  background-image: url(../img/sprite2.png);
+  background-position: -50px -23px;
+  width: 16px;
+  height: 11px;
+}
+.icon-austria {
+  background-image: url(../img/sprite2.png);
+  background-position: -17px -49px;
+  width: 17px;
+  height: 11px;
+}
+.icon-azerbaidgan {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px -60px;
+  width: 16px;
+  height: 11px;
+}
+.icon-banglandesh {
+  background-image: url(../img/sprite2.png);
+  background-position: -48px -60px;
+  width: 16px;
+  height: 11px;
+}
+.icon-brasil {
+  background-image: url(../img/sprite2.png);
+  background-position: -32px -71px;
+  width: 16px;
+  height: 11px;
+}
+.icon-britain {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px -13px;
+  width: 17px;
+  height: 12px;
+}
+.icon-canada {
+  background-image: url(../img/sprite2.png);
+  background-position: -66px -11px;
+  width: 16px;
+  height: 11px;
+}
+.icon-china {
+  background-image: url(../img/sprite2.png);
+  background-position: -32px -37px;
+  width: 16px;
+  height: 12px;
+}
+.icon-croatia {
+  background-image: url(../img/sprite2.png);
+  background-position: -33px 0px;
+  width: 17px;
+  height: 12px;
+}
+.icon-egypt {
+  background-image: url(../img/sprite2.png);
+  background-position: -32px -60px;
+  width: 16px;
+  height: 11px;
+}
+.icon-france {
+  background-image: url(../img/sprite2.png);
+  background-position: -33px -12px;
+  width: 17px;
+  height: 12px;
+}
+.icon-germany {
+  background-image: url(../img/sprite2.png);
+  background-position: -51px -49px;
+  width: 15px;
+  height: 11px;
+}
+.icon-india {
+  background-image: url(../img/sprite2.png);
+  background-position: -82px 0px;
+  width: 16px;
+  height: 10px;
+}
+.icon-iran {
+  background-image: url(../img/sprite2.png);
+  background-position: -17px -13px;
+  width: 16px;
+  height: 12px;
+}
+.icon-israel {
+  background-image: url(../img/sprite2.png);
+  background-position: -82px -10px;
+  width: 16px;
+  height: 9px;
+}
+.icon-italy {
+  background-image: url(../img/sprite2.png);
+  background-position: -34px -49px;
+  width: 17px;
+  height: 11px;
+}
+.icon-japan {
+  background-image: url(../img/sprite2.png);
+  background-position: -50px -12px;
+  width: 16px;
+  height: 11px;
+}
+.icon-kazahstan {
+  background-image: url(../img/sprite2.png);
+  background-position: -66px 0px;
+  width: 16px;
+  height: 11px;
+}
+.icon-korea {
+  background-image: url(../img/sprite2.png);
+  background-position: -33px -25px;
+  width: 16px;
+  height: 12px;
+}
+.icon-livan {
+  background-image: url(../img/sprite2.png);
+  background-position: -66px -22px;
+  width: 16px;
+  height: 11px;
+}
+.icon-nepal {
+  background-image: url(../img/sprite2.png);
+  background-position: -66px -33px;
+  width: 16px;
+  height: 11px;
+}
+.icon-oae {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px -37px;
+  width: 16px;
+  height: 12px;
+}
+.icon-pakistan {
+  background-image: url(../img/sprite2.png);
+  background-position: -16px -37px;
+  width: 16px;
+  height: 12px;
+}
+.icon-russia {
+  background-image: url(../img/sprite2.png);
+  background-position: -16px -60px;
+  width: 16px;
+  height: 11px;
+}
+.icon-serbia {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px -49px;
+  width: 17px;
+  height: 11px;
+}
+.icon-siria {
+  background-image: url(../img/sprite2.png);
+  background-position: -50px 0px;
+  width: 16px;
+  height: 12px;
+}
+.icon-slovenia {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px 0px;
+  width: 17px;
+  height: 13px;
+}
+.icon-spain {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px -25px;
+  width: 17px;
+  height: 12px;
+}
+.icon-sri_lanka {
+  background-image: url(../img/sprite2.png);
+  background-position: -16px -71px;
+  width: 16px;
+  height: 11px;
+}
+.icon-tailand {
+  background-image: url(../img/sprite2.png);
+  background-position: -17px -25px;
+  width: 16px;
+  height: 12px;
+}
+.icon-taivan {
+  background-image: url(../img/sprite2.png);
+  background-position: -17px 0px;
+  width: 16px;
+  height: 13px;
+}
+.icon-turkmenia {
+  background-image: url(../img/sprite2.png);
+  background-position: -48px -71px;
+  width: 16px;
+  height: 11px;
+}
+.icon-tyrkey {
+  background-image: url(../img/sprite2.png);
+  background-position: 0px -71px;
+  width: 16px;
+  height: 11px;
+}
+.icon-ukraine {
+  background-image: url(../img/sprite2.png);
+  background-position: -64px -60px;
+  width: 16px;
+  height: 11px;
+}
+.icon-vietnam {
+  background-image: url(../img/sprite2.png);
+  background-position: -64px -71px;
+  width: 16px;
+  height: 11px;
+}

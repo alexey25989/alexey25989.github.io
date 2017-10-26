@@ -1,0 +1,63 @@
+.submenu
+	position: relative
+	left: 0
+	color: #5F5F5F
+
+	a
+		color: #5F5F5F
+		text-decoration: none
+	
+	&__list
+		position: absolute
+		left: 0
+		top: -6px
+		padding: 5px 8px
+		overflow: hidden
+		list-style-type: none
+		line-height: 1.9
+		background: #fff
+		transition: .3s
+
+	i
+		margin-left: 5px
+
+	a, 
+	li	
+		transition: color .2s
+
+	a:hover,
+	li:hover
+		color: #0A0A0A
+		transition: .2s
+		cursor: pointer
+
+	li:not(:first-child) 
+		position: absolute
+		top: -100px
+		visibility: hidden
+		transition: .1s 
+
+	li:first-child
+		a
+			border-bottom: 1px dotted #5F5F5F
+
+	&__list-2
+		left: 16%
+
+		@media only screen and (max-width : 992px)
+			left: 18%
+
+		@media only screen and (max-width : 768px)
+			left: 28%
+
+		@media only screen and (max-width : 480px)
+			left: 33%
+
+	&__list:hover
+		outline: 1px solid #B7B7B7
+
+		li:not(:first-child) 
+			position: relative
+			top: 0
+			visibility: visible
+			transition: .2s 
